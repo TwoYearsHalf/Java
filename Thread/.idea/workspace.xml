@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/createThread/RunApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/createThread/SubRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/createThread/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/RunApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/SubRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/RunApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/SubRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/ThreadDemo.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/JavaThread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/thread/concurrency/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/thread/concurrency/RunApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/thread/concurrency/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/thread/concurrency/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/thread/concurrency/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/thread/concurrency/TestApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2IlhNrBojOcGvU9w1YaVR88rRHZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,10 +36,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.google.thread.concurrency.RunApplication">
     <configuration name="RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.google.thread.createThread.RunApplication" />
       <module name="Thread" />
@@ -53,8 +55,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.TestApplication" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.google.thread.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.google.thread.concurrency.RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.RunApplication" />
+      <module name="Thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.google.thread.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.google.thread.concurrency.RunApplication" />
+        <item itemvalue="Application.TestApplication" />
         <item itemvalue="Application.RunApplication" />
       </list>
     </recent_temporary>
@@ -67,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670762041368</updated>
-      <workItem from="1670762042450" duration="302000" />
+      <workItem from="1670762042450" duration="10276000" />
     </task>
     <servers />
   </component>
