@@ -3,10 +3,12 @@ package com.google.thread.concurrency;
 public class RunApplication {
     public static void main(String[] args) {
 /*
-synchronized表示当前线程，独占 对象 someObject
-当前线程独占 了对象someObject，如果有其他线程试图占有对象someObject，就会等待，直到当前线程释放对someObject的占用。
-someObject 又叫同步对象，所有的对象，都可以作为同步对象
+synchronized表示当前线程，独占 对象 object
+当前线程独占了对象object，如果有其他线程试图占有对象object，就会等待，直到当前线程释放对object的占用。
+object 又叫同步对象，所有的对象，都可以作为同步对象
 为了达到同步的效果，必须使用同一个同步对象
+
+注意：多个线程在执行synchronized同步代码块时，代码块括号里面可以传入任意对象，但一定要保证多个线程访问的是同一个锁对象。synchronized锁住的是对象，并不是代码，下面代码中锁住的是我们自己创建的obj对象，若synchronized加在方法上时，锁住的是当前class的字节码文件对象
  */
         Object object = new Object();
         Test test = new Test();
@@ -32,10 +34,10 @@ someObject 又叫同步对象，所有的对象，都可以作为同步对象
         for (int i = 0; i < 1000; i++) {
             Thread thread_2 = new Thread() {
                 public void run() {
-                    synchronized (object) {
+//                    synchronized (object) {
                         test.reduceNumber();
                     }
-                }
+//                }
             };
             thread_2.start();
             reduceThreads[i] = thread_2;

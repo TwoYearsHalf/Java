@@ -10,6 +10,39 @@ public class Test extends Thread{
     int number ;
 
     // 加
+//    public void addNumber() {
+//        try {
+//            sleep(1);
+//        }catch (Exception exception){
+//            exception.printStackTrace();
+//        }
+//        number = number + 1;
+////        System.out.println("...number = " + number);
+//
+//    }
+//
+//    // 减
+//    public void reduceNumber() {
+//        try {
+//            sleep(10);
+//        }catch (Exception exception){
+//            exception.printStackTrace();
+//        }
+//        number = number - 1;
+////        System.out.println("...number = " + number);
+//    }
+
+    /*
+同步对象可以是代码块 也可以是一个对象
+既然任意对象都可以用来作为同步对象，而所有的线程访问的都是同一个test对象
+索性就使用test来作为同步对象
+进一步的，对于Test的addNumber方法,加上
+synchronized (this) {
+      }
+表示当前对象为同步对象，即也是test为同步对象
+
+ */
+    // 加
     public void addNumber() {
         try {
             sleep(1);
@@ -23,12 +56,15 @@ public class Test extends Thread{
 
     // 减
     public void reduceNumber() {
-        try {
-            sleep(10);
-        }catch (Exception exception){
-            exception.printStackTrace();
-        }
-        number = number - 1;
+        synchronized (this) {
+            try {
+                sleep(10);
+            } catch (Exception exception) {
+                exception.printStackTrace();
+            }
+            number = number - 1;
 //        System.out.println("...number = " + number);
+        }
     }
+
 }
