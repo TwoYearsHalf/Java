@@ -43,6 +43,8 @@ synchronized (this) {
 
  */
     // 加
+    // 其实同样可以把synchronized作为方法修饰符使用
+    // public synchronized void addNumber....
     public void addNumber() {
         try {
             sleep(1);
