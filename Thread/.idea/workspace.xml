@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/deadLock/DeadThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/Condom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/RunApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DeadThread">
+  <component name="RunManager" selected="Application.com.google.thread.threadCommunication.RunApplication">
     <configuration name="DeadThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.google.thread.deadLock.DeadThread" />
       <module name="Thread" />
@@ -64,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.TestApplication" />
+    <configuration name="com.google.thread.concurrency.RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.RunApplication" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.google.thread.concurrency.RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.RunApplication" />
+    <configuration name="com.google.thread.threadCommunication.RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.thread.threadCommunication.RunApplication" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.google.thread.concurrency.*" />
+          <option name="PATTERN" value="com.google.thread.threadCommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.google.thread.threadCommunication.RunApplication" />
         <item itemvalue="Application.DeadThread" />
         <item itemvalue="Application.com.google.thread.threadMethod.RunApplication" />
         <item itemvalue="Application.RunApplication" />
         <item itemvalue="Application.com.google.thread.concurrency.RunApplication" />
-        <item itemvalue="Application.TestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +127,8 @@
       <workItem from="1670762042450" duration="19770000" />
       <workItem from="1670847975009" duration="1537000" />
       <workItem from="1670854487645" duration="2514000" />
-      <workItem from="1670857069216" duration="4096000" />
+      <workItem from="1670857069216" duration="8151000" />
+      <workItem from="1670940541851" duration="7115000" />
     </task>
     <servers />
   </component>
