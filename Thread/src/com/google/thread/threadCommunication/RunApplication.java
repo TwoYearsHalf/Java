@@ -1,5 +1,7 @@
 package com.google.thread.threadCommunication;
 
+import static java.lang.Thread.sleep;
+
 /*
 线程交互(线程通信)  等待唤醒机制
 
@@ -15,11 +17,46 @@ notify方法可以随机唤醒单个在等待状态下的线程。
  */
 public class RunApplication {
     public static void main(String[] args) {
-        Condom condom = new Condom();
-        new Customer(condom).start();
-        new Producer(condom).start();
+//        Condom condom = new Condom();
+//        new Customer(condom).start();
+//        new Producer(condom).start();
+
+        // 如果上面的例子不好理解  可以用对一个数字的加减操作再次演示
+          /*
+    定义一个数字 number ，给定数值
+    两个方法
+    addNumber() 每次只+1
+    reduceNumber() 每次只-1
+    当数字number被减到=1时 唤醒addNumber
+    当数字number>1时  唤醒reduceNumber
+     */
+
+        int number = 1000;
+        NumberTest numberTest = new NumberTest();
+       Thread thread_1 = new Thread(()->{
+           while(true) {
+               try {
+                   sleep(100);
+               } catch (InterruptedException e) {
+                   throw new RuntimeException(e);
+               }
+               numberTest.addNumber();
+           }
+        });
+
+        Thread thread_2 = new Thread(()->{
+            while(true) {
+                try {
+                    sleep(100);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                numberTest.reduceNumber();
+            }
+        });
+
+        thread_1.start();
+        thread_2.start();
+
     }
-
-
-
 }

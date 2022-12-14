@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/Condom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/RunApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/NumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/thread/threadCommunication/RunApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,8 @@
       <workItem from="1670847975009" duration="1537000" />
       <workItem from="1670854487645" duration="2514000" />
       <workItem from="1670857069216" duration="8151000" />
-      <workItem from="1670940541851" duration="7115000" />
+      <workItem from="1670940541851" duration="8065000" />
+      <workItem from="1671010179732" duration="3530000" />
     </task>
     <servers />
   </component>
