@@ -31,7 +31,6 @@ public class LockTest {
                     // 防止上面出现异常之后无法释放锁
                     lock.unlock();
                 }
-
             }
         };
 

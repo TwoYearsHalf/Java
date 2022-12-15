@@ -101,6 +101,7 @@ public class RunApplication {
             }
         };
         thread_6.setName("Thread_6");
+
         // 设置守护线程 如果是true  那么不会打印线程名称，直接结束线程
         thread_6.setDaemon(true);
         thread_6.start();
