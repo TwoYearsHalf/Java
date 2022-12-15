@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/thread/concurrency/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/thread/concurrency/LockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/thread/threadMethod/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/thread/threadMethod/RunApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

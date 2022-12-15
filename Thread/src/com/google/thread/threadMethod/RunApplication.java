@@ -99,6 +99,8 @@ public class RunApplication {
                     System.out.println(getName() + "...");
                 }
             }
+
+            // 写几行代码 测试一下^_^
         };
         thread_6.setName("Thread_6");
 
