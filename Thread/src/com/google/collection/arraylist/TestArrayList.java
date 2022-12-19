@@ -3,7 +3,11 @@ package com.google.collection.arraylist;
 
 import java.util.ArrayList;
 
-/* 容器类 ArrayList
+/*
+集合概述:
+数组长度是固定的，如果要改变数组的长度需要通过数组拷贝的方式，使用起来不太方便。java给开发者提供了一些集合类，能够存储任意长度的对象数据，长度可以随着元素的增加而增加，随着元素的减少而减少，使用起来方便一些。集合的主要作用是存取数据，在实际应用中出现的频率非常多，因此集合非常重要。
+
+容器类 ArrayList
 容器的容量"capacity"会随着对象的增加，自动增长
  */
 public class TestArrayList {

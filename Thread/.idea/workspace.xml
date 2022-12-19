@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/google/collection/arraylist/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/collection/arraylist/TestArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/collection/collection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/collection/arralistmothed/RunApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/collection/arraylist/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/arraylist/TestArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/collection/collection.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +43,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestArrayList">
-    <configuration name="DeadThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.google.thread.deadLock.DeadThread" />
+  <component name="RunManager" selected="Application.RunApplication">
+    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.LockTest" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.google.thread.deadLock.*" />
+          <option name="PATTERN" value="com.google.thread.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.google.thread.concurrency.LockTest" />
+    <configuration name="RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.google.collection.arralistmothed.RunApplication" />
       <module name="Thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.google.thread.concurrency.*" />
+          <option name="PATTERN" value="com.google.collection.arralistmothed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunApplication" />
         <item itemvalue="Application.TestArrayList" />
         <item itemvalue="Application.com.google.thread.concurrency.RunApplication" />
         <item itemvalue="Application.LockTest" />
         <item itemvalue="Application.com.google.thread.threadCommunication.RunApplication" />
-        <item itemvalue="Application.DeadThread" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,7 @@
       <workItem from="1671182719672" duration="1192000" />
       <workItem from="1671266316768" duration="598000" />
       <workItem from="1671434130169" duration="7000" />
-      <workItem from="1671442384149" duration="7240000" />
+      <workItem from="1671442384149" duration="9674000" />
     </task>
     <servers />
   </component>
