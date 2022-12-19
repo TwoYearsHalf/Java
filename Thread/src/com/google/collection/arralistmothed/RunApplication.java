@@ -56,5 +56,7 @@ public class RunApplication {
 
         // 7.size 获取ArrayList容器大小
         System.out.println(arrayList.size());
+
+        // 测试
     }
 }
