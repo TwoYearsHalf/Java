@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/google/collection/arralistmothed/RunApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/collection/arraylist/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/arraylist/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/collection/collection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/collection/arralistmothed/RunApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/google/collection/arralistmothed/RunApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/collection/arralistmothed/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/arralistmothed/RunApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,7 @@
       <workItem from="1671182719672" duration="1192000" />
       <workItem from="1671266316768" duration="598000" />
       <workItem from="1671434130169" duration="7000" />
-      <workItem from="1671442384149" duration="9674000" />
+      <workItem from="1671442384149" duration="14606000" />
     </task>
     <servers />
   </component>
