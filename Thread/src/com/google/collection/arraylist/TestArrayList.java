@@ -2,6 +2,7 @@ package com.google.collection.arraylist;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 /*
 集合概述:
@@ -28,5 +29,13 @@ public class TestArrayList {
 
         // 输出容器大小
         System.out.println(arrayList.size());
+
+        /*
+        ArrayList实现了接口List
+        常见的写法会把引用声明为接口List类型
+        注意：是java.util.List,而不是java.awt.List
+         */
+        List list = new ArrayList();
+        list.add(new Human("list"));
     }
 }
