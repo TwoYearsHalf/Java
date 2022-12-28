@@ -14,19 +14,19 @@ import java.util.List;
 public class Run {
     public static void main(String[] args) {
         // 不使用泛型
-        List list = new ArrayList();
+//        List list = new ArrayList();
 
         // 容器中第0个数据是Cat类型
-        list.add(new Cat("Tom"));
+//        list.add(new Cat("Tom"));
 
         // 容器中第1个数据是Dog类型
-        list.add(new Dog("Jerry"));
+//        list.add(new Dog("Jerry"));
 
         // 第0个数据给了cat对象，类型一致
-        Cat cat =(Cat) list.get(0);
+//        Cat cat = (Cat) list.get(0);
 
         // 第1个数据给了dog对象，类型一致
-        Dog dog =(Dog) list.get(1);
+//        Dog dog = (Dog) list.get(1);
 
         // 这样会出错
 //        Dog dog_1 = (Dog)list.get(0);
@@ -40,15 +40,40 @@ public class Run {
         泛型表示这种容器，只能存放Dog，Cat就放不进去了
          */
         // 该容器被设置为只能装Dog类的对象
-        List<Dog> list_1 =new ArrayList<>();
-        list_1.add(new Dog());
+//        List<Dog> list_1 = new ArrayList<>();
+//        list_1.add(new Dog());
 
         // 同时，获取容器中的数据也不用进行类型转换
-        Dog dog_1 = list_1.get(0);
+//        Dog dog_1 = list_1.get(0);
 
         // 如果容器的泛型是Animal 那么Animal的子类都可以放进去
-        ArrayList<Animal> arrayList = new ArrayList<>();
-        arrayList.add(new Cat());
-        arrayList.add(new Dog());
+//        ArrayList<Animal> arrayList = new ArrayList<>();
+//        arrayList.add(new Cat());
+//        arrayList.add(new Dog());
+
+
+        //  ? extends
+        /*
+        ArrayList animalList<? extends Animal> 表示这是一个Animal泛型或者其子类泛型
+        animalList 的泛型可能是Animal
+        animalList 的泛型可能是Dog
+        animalList 的泛型可能是Cat
+        所以 可以确凿的是，从animalList取出来的对象，一定是可以转型成Animal的
+
+        但是，不能往里面放东西，因为
+        放Cat就不满足<Dog>
+        放Dog又不满足<Cat>
+         */
+        ArrayList<? extends Animal> animalList = new ArrayList<>();
+        ArrayList<Dog> dogArrayList = new ArrayList<>();
+        dogArrayList.add(new Dog("Jerry"));
+        animalList = dogArrayList;
+
+        // 可以取东西
+        Animal animal = animalList.get(0);
+
+        // 但是 不能往里面放东西
+        // 报错
+//        animalList.add(new Dog("laji"));
     }
 }
