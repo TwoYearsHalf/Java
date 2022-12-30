@@ -118,5 +118,11 @@ public class Run {
         // 报错
 //        arrayList.add(new Dog());
 //        arrayList.add(new Cat());
+
+        /*
+        如果希望只取出，不插入，就使用? extends Hero
+        如果希望只插入，不取出，就使用? super Hero
+        如果希望，又能插入，又能取出，就不要用通配符？
+         */
     }
 }
