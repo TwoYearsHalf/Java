@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2776277e-5512-478b-ad1f-25cf10de4130" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/com/google/collection/generic/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/collection/generic/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/generic/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/collection/generic/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/generic/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/collection/generic/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/generic/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/collection/generic/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/collection/generic/Run.java" afterDir="false" />
     </list>
@@ -148,7 +142,7 @@
       <workItem from="1671434130169" duration="7000" />
       <workItem from="1671442384149" duration="14606000" />
       <workItem from="1671629486654" duration="9863000" />
-      <workItem from="1672056796352" duration="13748000" />
+      <workItem from="1672056796352" duration="17174000" />
     </task>
     <servers />
   </component>

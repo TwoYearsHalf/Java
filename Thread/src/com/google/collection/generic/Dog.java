@@ -8,11 +8,6 @@ public class Dog extends Animal {
         this.name = name;
     }
 
-    public Dog(String name, String name1) {
-        super(name);
-        this.name = name1;
-    }
-
     @Override
     public String toString() {
         return "Dog[" +

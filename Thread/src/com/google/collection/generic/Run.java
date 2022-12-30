@@ -75,5 +75,48 @@ public class Run {
         // 但是 不能往里面放东西
         // 报错
 //        animalList.add(new Dog("laji"));
+
+
+        // ? super
+        /*
+        ArrayList animalList<? super Animal> 表示这是一个Hero泛型或者其父类泛型
+        animalList的泛型可能是Animal
+        animalList的泛型可能是Object
+
+        可以往里面插入Animal以及Animal的子类
+        但是取出来有风险，因为不确定取出来是Animal还是Object
+         */
+        ArrayList<Animal> animalArrayList = new ArrayList<>();
+
+        // 可以插入数据
+        animalArrayList.add(new Animal());
+        // 也可以插入其子类
+        animalArrayList.add(new Dog());
+
+        // 但是不可以读取，因为有可能读取的泛型是Object，强制转换会失败
+        // 报错
+//        Dog dog = animalArrayList.get(0);
+
+
+        // 泛型通配符 ?
+       /*
+       泛型通配符? 代表任意泛型
+        既然?代表任意泛型，那么换句话说，这个容器什么泛型都有可能
+
+        所以只能以Object的形式取出来
+        并且不能往里面放对象，因为不知道到底是一个什么泛型的容器
+        */
+        ArrayList<?> arrayList = new ArrayList<>();
+        arrayList = animalArrayList;
+
+        //?的缺陷1： 既然?代表任意泛型，那么换句话说，你就不知道这个容器里面是什么类型
+        //所以只能以Object的形式取出来
+        Object object = arrayList.get(0);
+
+        //  ?的缺陷2:既然？代表任意泛型，那么极有可能是Animal，也有可能是Dog
+        // 所以，放哪种对象进去，都有哦风险，结果就什么类型的对象，都不能放进去
+        // 报错
+//        arrayList.add(new Dog());
+//        arrayList.add(new Cat());
     }
 }
